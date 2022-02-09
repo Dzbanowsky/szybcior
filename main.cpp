@@ -48,11 +48,13 @@ int main()
   {
       cin>>tab[i];
   }
-   for(int i=N;i>=N;i--)
+
+
+
+   for(int i=N;i>=0;i--)
   {
       cout<<tab[i]<<endl;
   }
-
   /*for(int i=0;i<N;i++)
   {
        a=(int)tab[i];
@@ -72,4 +74,6 @@ int main()
  //ngr2(tab, N);
  //suma=ngr(tab,N);
  //cout<<suma;
+ return 0;
 }
+
